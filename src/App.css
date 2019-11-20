@@ -1,3 +1,7 @@
+html {
+  background: forestgreen;
+}
+
 .App {
   text-align: center;
 }
@@ -21,9 +25,27 @@
   color: #09d3ac;
 }
 
+.box {
+  border: 1px solid black;
+  color: white;
+  width: 200px;
+  height: 200px;
+  margin: 1% auto;
+}
+
 .green-box {
-  width: 100px;
-  height: 100px;
-  margin: 0 auto;
   background: green;
+}
+
+.red-box {
+  background: red;
+}
+
+button {
+  background: white;
+  color: forestgreen;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 30px;
+  margin: 0 10px;
 }
